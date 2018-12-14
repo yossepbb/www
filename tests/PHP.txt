@@ -1,0 +1,78 @@
+ ---------------------------------------------------
+|CHAP4: LES Inclusions, inclure des portions de page.|
+ ----------------------------------------------------
+
+-Une page PHP peut inclure une autre page (ou un morceau de page) grace à l'usage de l'instruction "<?php include ("index.php") ; ?>".
+
+- Cette instruction include sera remplacée par le contenu de la page demandée.
+
+-Cette technique, très simple à mettre en place, permet par exemple de placer les menus de son site dans un fichier menus.php que l'on inclura
+dans toutes les pages. Cela permet de centraliser le code des menus alors qu'on était auparavant obligé de le copier dans chaque page sur nos sites statique HTML et CSS.
+-----------------------------------------*********************OOOOOOOOOOOOO********************--------------------------------------------------------
+-----------------------------------------*********************OOOOOOOOOOOOOO*******************--------------------------------------------------------
+
+
+ ---------------------
+|CHAP5: Les variables |
+ ---------------------
+
+	Les variables sont un élément indispensable dans tout langage de programmation. Elles nous permettent de stocker temporairement de l'information en mémoire.
+
+Definition
+-----------
+
+
+Une variable est une petite information stockée en mémoire temporairement. Elle n'a pas une longue durée tant que la page est en cours d'exécution alors elle existe. Dès que la page PHP est générée, toute les variables sont supprimées de la mémoire car elles ne servent plus à rien. Ce n'est donc pas un fichier qui reste stockée sur le disque mais une petite information temporaire présente en mémoire vive.
+
+Une variable est toujours constituée de 2 éléments: un nom et une valeur.
+
+
+Les Différents types de variables
+----------------------------------
+
+- Les Chaines de caractères (string): Tout texte est une chaine de caractères.Une chaine est géneralement ecrite entre guillemets ou entre apostrophes. 
+
+- Les nombre entiers (int): ce sont les nombres du type 1,2,3.....1000000
+
+- les nombres flotants (float): ce sont les nombres à virgule coe 14.234 ( un point au lieu d'une virgule )
+
+- Les booléens (bool): c'est un type très important qui permet de stocker soit vrai ou faux..
+
+- RIEN (NULL): aussi bizarre que cela puisse paraitre, on a parfois besoin de dire qu'une variable ne contient rien. On dit donc qu'elle vaut NULL
+Ce n'est pas vraiment un type de données mais plutot l'absence de type.
+
+----------\
+PRATIQUE   \
+           /    AFFECTER UNE VALEUR A UNE VARIABLE
+----------/     ----------------------------------
+
+
+
+<?php $mon_age = 28 ans ; ?>  /* le symbole $ précède toujours le nom d'une variable.
+
+
+- La concatenation: Il existe 2 formes de concatenations
+
+	exple1: // La concatenation avec double guillemets
+
+			echo "je suis $mon_nom et j'ai $age mon métier est celui de $metier et j'aime ca.   ";
+
+	exple2: // La concatenation avec simples guillemets
+
+			echo 'je suis' . $mon_nom . 'et j'ai' . $age . 'mon métier est celui de' . $metier . 'et j'aime ca.  ';
+
+
+
+----------------------------\
+							 \
+							  \
+							  /    ALLER PLUS LOIN AVEC LES VARIABLES 
+							 /
+----------------------------/
+
+
+
+LES REFERENCES
+--------------
+
+- Une référence n'est rien d'autre qu'une variable pointant sur une autre. Elle devient un alias de la variable sur laquelle elle pointe. Si l'une de ses variables est modifiée alors les 2 prendront la meme valeur

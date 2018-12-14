@@ -1,0 +1,32 @@
+
+------------------------ Landing Page -------------------------------------
+																			\
+																			  \
+																			    \
+																			      \
+
+As a blogger:
+
+1- I want to have a navbar on top of the page so that my visitors can see it first.
+
+2- I want to have a clickable logo, so that my visitor can be right back direct to the landing page.
+
+3- I want to have 5 links into the navbar so that the visitor can easily navigate through the my website.        \
+																												  \
+4- I want to have a searchbar into the navbar so that the visitor can make fast researches.                        \
+																													\
+5- I want to have a carroussel of images within a banner so that the visitor can have a presentation of all services.|
+																											  /
+6- I want to have un button on each image of the carroussel so that the visitor can have a better UX.        /
+																					-------------------------
+																				   /
+																				  /
+																				 /
+--------------------------------------------------------------------------------/
+
+
+
+
+
+
+
